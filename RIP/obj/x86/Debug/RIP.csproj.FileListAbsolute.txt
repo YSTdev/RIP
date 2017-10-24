@@ -1,0 +1,69 @@
+D:\BURN\Учеба (МИЭМ)\WORK\RIPv3\RIP\RIP\bin\Debug\RIP.exe
+D:\BURN\Учеба (МИЭМ)\WORK\RIPv3\RIP\RIP\bin\Debug\RIP.pdb
+D:\BURN\Учеба (МИЭМ)\WORK\RIPv3\RIP\RIP\obj\x86\Debug\MainWindow.g.cs
+D:\BURN\Учеба (МИЭМ)\WORK\RIPv3\RIP\RIP\obj\x86\Debug\App.g.cs
+D:\BURN\Учеба (МИЭМ)\WORK\RIPv3\RIP\RIP\obj\x86\Debug\RIP_MarkupCompile.cache
+D:\BURN\Учеба (МИЭМ)\WORK\RIPv3\RIP\RIP\obj\x86\Debug\RIP_MarkupCompile.lref
+D:\BURN\Учеба (МИЭМ)\WORK\RIPv3\RIP\RIP\obj\x86\Debug\MainWindow.baml
+D:\BURN\Учеба (МИЭМ)\WORK\RIPv3\RIP\RIP\obj\x86\Debug\RIP.g.resources
+D:\BURN\Учеба (МИЭМ)\WORK\RIPv3\RIP\RIP\obj\x86\Debug\RIP.Properties.Resources.resources
+D:\BURN\Учеба (МИЭМ)\WORK\RIPv3\RIP\RIP\obj\x86\Debug\RIP.csproj.GenerateResource.Cache
+D:\BURN\Учеба (МИЭМ)\WORK\RIPv3\RIP\RIP\obj\x86\Debug\RIP.exe
+D:\BURN\Учеба (МИЭМ)\WORK\RIPv3\RIP\RIP\obj\x86\Debug\RIP.pdb
+D:\BURN\Учеба (МИЭМ)\WORK\RIPFinal\RIP\RIP\obj\x86\Debug\RIP.exe
+D:\BURN\Учеба (МИЭМ)\WORK\RIPFinal\RIP\RIP\obj\x86\Debug\RIP.pdb
+D:\BURN\Учеба (МИЭМ)\WORK\RIPFinal\RIP\RIP\bin\Debug\RIP.exe
+D:\BURN\Учеба (МИЭМ)\WORK\RIPFinal\RIP\RIP\bin\Debug\RIP.pdb
+D:\BURN\Учеба (МИЭМ)\WORK\RIPFinal\RIP\RIP\obj\x86\Debug\MainWindow.g.cs
+D:\BURN\Учеба (МИЭМ)\WORK\RIPFinal\RIP\RIP\obj\x86\Debug\App.g.cs
+D:\BURN\Учеба (МИЭМ)\WORK\RIPFinal\RIP\RIP\obj\x86\Debug\RIP_MarkupCompile.cache
+D:\BURN\Учеба (МИЭМ)\WORK\RIPFinal\RIP\RIP\obj\x86\Debug\RIP_MarkupCompile.lref
+D:\BURN\Учеба (МИЭМ)\WORK\RIPFinal\RIP\RIP\obj\x86\Debug\MainWindow.baml
+D:\BURN\Учеба (МИЭМ)\WORK\RIPFinal\RIP\RIP\obj\x86\Debug\RIP.g.resources
+D:\BURN\Учеба (МИЭМ)\WORK\RIPFinal\RIP\RIP\obj\x86\Debug\RIP.Properties.Resources.resources
+D:\BURN\Учеба (МИЭМ)\WORK\RIPFinal\RIP\RIP\obj\x86\Debug\RIP.csproj.GenerateResource.Cache
+D:\BURN\Учеба (МИЭМ)\WORK\RIPFinal\RIP\RIP\obj\x86\Debug\RIP.csprojResolveAssemblyReference.cache
+D:\BURN\Учеба (МИЭМ)\WORK\RIPFinal\RIP\RIP\bin\Debug\RIP.exe.config
+D:\BURN\Учеба (МИЭМ)\WORK\RIPFinal\RIP\RIP\bin\Debug\EntityFramework.dll
+D:\BURN\Учеба (МИЭМ)\WORK\RIPFinal\RIP\RIP\bin\Debug\EntityFramework.SqlServer.dll
+D:\BURN\Учеба (МИЭМ)\WORK\RIPFinal\RIP\RIP\bin\Debug\EntityFramework.xml
+D:\BURN\Учеба (МИЭМ)\WORK\RIPFinal\RIP\RIP\bin\Debug\EntityFramework.SqlServer.xml
+D:\BURN\Учеба (МИЭМ)\WORK\RIPFinal - Copy (3) Working\RIP\RIP\bin\Debug\RIP.exe.config
+D:\BURN\Учеба (МИЭМ)\WORK\RIPFinal - Copy (3) Working\RIP\RIP\obj\x86\Debug\RIP.exe
+D:\BURN\Учеба (МИЭМ)\WORK\RIPFinal - Copy (3) Working\RIP\RIP\obj\x86\Debug\RIP.pdb
+D:\BURN\Учеба (МИЭМ)\WORK\RIPFinal - Copy (3) Working\RIP\RIP\bin\Debug\RIP.exe
+D:\BURN\Учеба (МИЭМ)\WORK\RIPFinal - Copy (3) Working\RIP\RIP\bin\Debug\RIP.pdb
+D:\BURN\Учеба (МИЭМ)\WORK\RIPFinal - Copy (3) Working\RIP\RIP\bin\Debug\EntityFramework.dll
+D:\BURN\Учеба (МИЭМ)\WORK\RIPFinal - Copy (3) Working\RIP\RIP\bin\Debug\EntityFramework.SqlServer.dll
+D:\BURN\Учеба (МИЭМ)\WORK\RIPFinal - Copy (3) Working\RIP\RIP\bin\Debug\EntityFramework.xml
+D:\BURN\Учеба (МИЭМ)\WORK\RIPFinal - Copy (3) Working\RIP\RIP\bin\Debug\EntityFramework.SqlServer.xml
+D:\BURN\Учеба (МИЭМ)\WORK\RIPFinal - Copy (3) Working\RIP\RIP\obj\x86\Debug\RIP.csprojResolveAssemblyReference.cache
+D:\BURN\Учеба (МИЭМ)\WORK\RIPFinal - Copy (3) Working\RIP\RIP\obj\x86\Debug\MainWindow.g.cs
+D:\BURN\Учеба (МИЭМ)\WORK\RIPFinal - Copy (3) Working\RIP\RIP\obj\x86\Debug\App.g.cs
+D:\BURN\Учеба (МИЭМ)\WORK\RIPFinal - Copy (3) Working\RIP\RIP\obj\x86\Debug\RIP_MarkupCompile.cache
+D:\BURN\Учеба (МИЭМ)\WORK\RIPFinal - Copy (3) Working\RIP\RIP\obj\x86\Debug\RIP_MarkupCompile.lref
+D:\BURN\Учеба (МИЭМ)\WORK\RIPFinal - Copy (3) Working\RIP\RIP\obj\x86\Debug\MainWindow.baml
+D:\BURN\Учеба (МИЭМ)\WORK\RIPFinal - Copy (3) Working\RIP\RIP\obj\x86\Debug\RIP.g.resources
+D:\BURN\Учеба (МИЭМ)\WORK\RIPFinal - Copy (3) Working\RIP\RIP\obj\x86\Debug\RIP.Properties.Resources.resources
+D:\BURN\Учеба (МИЭМ)\WORK\RIPFinal - Copy (3) Working\RIP\RIP\obj\x86\Debug\RIP.csproj.GenerateResource.Cache
+D:\BURN\Учеба (МИЭМ)\WORK\RIPFinal - Copy (4) Working - LastCopy\RIP\RIP\bin\Debug\RIP.exe.config
+D:\BURN\Учеба (МИЭМ)\WORK\RIPFinal - Copy (4) Working - LastCopy\RIP\RIP\obj\x86\Debug\RIP.exe
+D:\BURN\Учеба (МИЭМ)\WORK\RIPFinal - Copy (4) Working - LastCopy\RIP\RIP\obj\x86\Debug\RIP.pdb
+D:\BURN\Учеба (МИЭМ)\WORK\GOOD\RIPFinal - Copy (4) Working - LastCopy\RIP\RIP\bin\Debug\RIP.exe.config
+D:\BURN\Учеба (МИЭМ)\WORK\GOOD\RIPFinal - Copy (4) Working - LastCopy\RIP\RIP\obj\x86\Debug\RIP.exe
+D:\BURN\Учеба (МИЭМ)\WORK\GOOD\RIPFinal - Copy (4) Working - LastCopy\RIP\RIP\obj\x86\Debug\RIP.pdb
+D:\BURN\Учеба (МИЭМ)\WORK\GOOD\RIPFinal - Copy (4) Working - LastCopy\RIP\RIP\bin\Debug\RIP.exe
+D:\BURN\Учеба (МИЭМ)\WORK\GOOD\RIPFinal - Copy (4) Working - LastCopy\RIP\RIP\bin\Debug\RIP.pdb
+D:\BURN\Учеба (МИЭМ)\WORK\GOOD\RIPFinal - Copy (4) Working - LastCopy\RIP\RIP\bin\Debug\EntityFramework.dll
+D:\BURN\Учеба (МИЭМ)\WORK\GOOD\RIPFinal - Copy (4) Working - LastCopy\RIP\RIP\bin\Debug\EntityFramework.SqlServer.dll
+D:\BURN\Учеба (МИЭМ)\WORK\GOOD\RIPFinal - Copy (4) Working - LastCopy\RIP\RIP\bin\Debug\EntityFramework.xml
+D:\BURN\Учеба (МИЭМ)\WORK\GOOD\RIPFinal - Copy (4) Working - LastCopy\RIP\RIP\bin\Debug\EntityFramework.SqlServer.xml
+D:\BURN\Учеба (МИЭМ)\WORK\GOOD\RIPFinal - Copy (4) Working - LastCopy\RIP\RIP\obj\x86\Debug\RIP.csprojResolveAssemblyReference.cache
+D:\BURN\Учеба (МИЭМ)\WORK\GOOD\RIPFinal - Copy (4) Working - LastCopy\RIP\RIP\obj\x86\Debug\MainWindow.g.cs
+D:\BURN\Учеба (МИЭМ)\WORK\GOOD\RIPFinal - Copy (4) Working - LastCopy\RIP\RIP\obj\x86\Debug\App.g.cs
+D:\BURN\Учеба (МИЭМ)\WORK\GOOD\RIPFinal - Copy (4) Working - LastCopy\RIP\RIP\obj\x86\Debug\RIP_MarkupCompile.cache
+D:\BURN\Учеба (МИЭМ)\WORK\GOOD\RIPFinal - Copy (4) Working - LastCopy\RIP\RIP\obj\x86\Debug\RIP_MarkupCompile.lref
+D:\BURN\Учеба (МИЭМ)\WORK\GOOD\RIPFinal - Copy (4) Working - LastCopy\RIP\RIP\obj\x86\Debug\MainWindow.baml
+D:\BURN\Учеба (МИЭМ)\WORK\GOOD\RIPFinal - Copy (4) Working - LastCopy\RIP\RIP\obj\x86\Debug\RIP.g.resources
+D:\BURN\Учеба (МИЭМ)\WORK\GOOD\RIPFinal - Copy (4) Working - LastCopy\RIP\RIP\obj\x86\Debug\RIP.Properties.Resources.resources
+D:\BURN\Учеба (МИЭМ)\WORK\GOOD\RIPFinal - Copy (4) Working - LastCopy\RIP\RIP\obj\x86\Debug\RIP.csproj.GenerateResource.Cache

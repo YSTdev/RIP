@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="RIPDBModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="RIPDBModelStoreContainer">
+    <EntitySet Name="Company" EntityType="RIPDBModel.Store.Company" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Users" EntityType="RIPDBModel.Store.Users" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK_Users_Company" Association="RIPDBModel.Store.FK_Users_Company">
+      <End Role="Company" EntitySet="Company" />
+      <End Role="Users" EntitySet="Users" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Company">
+    <Key>
+      <PropertyRef Name="CompanyId" />
+    </Key>
+    <Property Name="CompanyId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="CompanyName" Type="nvarchar(max)" />
+    <Property Name="CompanyContractStatus" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="UserId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="CompanyId" Type="int" />
+    <Property Name="UserName" Type="nvarchar(max)" />
+    <Property Name="UserLogin" Type="nvarchar(max)" />
+    <Property Name="UserPassword" Type="nvarchar(max)" />
+  </EntityType>
+  <Association Name="FK_Users_Company">
+    <End Role="Company" Type="RIPDBModel.Store.Company" Multiplicity="0..1" />
+    <End Role="Users" Type="RIPDBModel.Store.Users" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Company">
+        <PropertyRef Name="CompanyId" />
+      </Principal>
+      <Dependent Role="Users">
+        <PropertyRef Name="CompanyId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

@@ -1,0 +1,122 @@
+﻿<Window x:Class="RIP.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RIP"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Window.Resources>
+        <Style TargetType="TextBlock">
+            <Setter Property="FontSize" Value="14" />
+        </Style>
+        <Style TargetType="TextBox">
+            <Setter Property="FontSize" Value="14" />
+        </Style>
+        <Style TargetType="Button">
+            <Setter Property="Width" Value="40" />
+            <Setter Property="Margin" Value="5" />
+        </Style>
+    </Window.Resources>
+
+    <Grid>
+        <TabControl Grid.Column="0">
+            <TabItem Header="Companies">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="0.8*" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="0.2*" />
+                    </Grid.RowDefinitions>
+                    <ListBox Grid.Column="0" ItemsSource="{Binding CompaniesCollection}"
+                     SelectedItem="{Binding SelectedCompany}">
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <StackPanel Margin="5">
+                                    <TextBlock FontSize="18" Text="{Binding Path=CompanyName}" />
+                                    <TextBlock Text="{Binding Path=CompanyContractStatus}" />
+
+                                </StackPanel>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                    </ListBox>
+                    <StackPanel Grid.Row="1" Orientation="Horizontal">
+                        <Button Command="{Binding AddCompanyCommand}">+</Button>
+                        <Button Command="{Binding RemoveCompanyCommand}"
+                    CommandParameter="{Binding SelectedCompany}">-</Button>
+                        <Button Command="{Binding SaveCompanyCommand}"
+             CommandParameter="{Binding ChangedCompanyCollection}">Save</Button>
+                        <Button Command="{Binding CancelCompanyCommand}"
+             CommandParameter="{Binding ChangedCompanyCollection}">Cancel</Button>
+
+                    </StackPanel>
+
+                    <StackPanel Grid.Column="1" DataContext="{Binding SelectedCompany}">
+                        <TextBlock Text="Company"  />
+                        <TextBlock Text="Name" />
+                        <TextBox Text="{Binding CompanyName, UpdateSourceTrigger=PropertyChanged}" />
+                        <TextBlock Text="Contract status" />
+                        <ComboBox Text="{Binding CompanyContractStatus, UpdateSourceTrigger=PropertyChanged}">
+                            <ComboBoxItem IsSelected="True">Not concluded</ComboBoxItem>
+                            <ComboBoxItem>Concluded</ComboBoxItem>
+                            <ComboBoxItem>Terminated</ComboBoxItem>
+                        </ComboBox>
+                        <Label>+ Create new Company</Label>
+                        <Label>- Delete Company</Label>
+                        <Label>Type in the fields for update</Label>
+                    </StackPanel>
+                </Grid>
+            </TabItem>
+
+            <TabItem Header="Users">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="0.8*" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="0.2*" />
+                    </Grid.RowDefinitions>
+                    <ListBox Grid.Column="0" ItemsSource="{Binding UsersCollection}"
+                     SelectedItem="{Binding SelectedUser}">
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <StackPanel Margin="5">
+                                    <TextBlock FontSize="18" Text="{Binding Path=UserName}" />
+                                    <TextBlock Text="{Binding Path=UserLogin}" />
+                                    <TextBlock Text="{Binding Path=UserPassword}" />
+                                </StackPanel>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                    </ListBox>
+                    <StackPanel Grid.Row="1" Orientation="Horizontal">
+                        <Button Command="{Binding AddUserCommand}">+</Button>
+                        <Button Command="{Binding RemoveUserCommand}"
+                    CommandParameter="{Binding SelectedUser}">-</Button>
+                        <Button Command="{Binding SaveUserCommand}"
+             CommandParameter="{Binding ChangedUserCollection}">Save</Button>
+                        <Button Command="{Binding CancelUserCommand}"
+             CommandParameter="{Binding ChangedUserCollection}">Cancel</Button>
+                    </StackPanel>
+
+                    <StackPanel Grid.Column="1"  DataContext="{Binding SelectedUser}">
+                        <TextBlock Text="User"  />
+                        <TextBlock Text="Name" />
+                        <TextBox Name="userNameTextBox" Text="{Binding UserName, UpdateSourceTrigger=PropertyChanged}" />
+                        <TextBlock Text="Login" />
+                        <TextBox Name="Login" Text="{Binding UserLogin, UpdateSourceTrigger=PropertyChanged}" />
+                        <TextBlock Text="Password" />
+                        <TextBox Name="Password" Text="{Binding UserPassword, UpdateSourceTrigger=PropertyChanged}" />
+                        <Label> + Create new User</Label>
+                        <Label> - Delete User</Label>
+                        <Label> Type in the fields for update</Label>
+                    </StackPanel>
+                </Grid>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>
